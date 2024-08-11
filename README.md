@@ -3,5 +3,5 @@ To run this project clone the root directory and run these commands in the termi
 1 => git clone https://github.com/zubair-bin-hamid/e-commerce.git
 2 => cd e-commerce
 4 => npm install (install dependecies) 
-5 => npm run installall (install dependecies) 
+5 => npm run installAll (install dependecies) 
 6 => npm run start (run both server and client)
