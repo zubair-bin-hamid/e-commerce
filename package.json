@@ -1,0 +1,15 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "server and client",
+  "main": "index.js",
+  "scripts": {
+    "installall": "yarn install --cwd client && cd server && npm install",
+    "start": "concurrently \"cd client && yarn dev\" \"cd server && npm start\""
+  },
+  "author": "zubair",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
