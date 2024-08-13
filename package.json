@@ -4,7 +4,7 @@
   "description": "server and client",
   "main": "index.js",
   "scripts": {
-    "installaAll": "yarn install --cwd client && cd server && npm install",
+    "installAll": "yarn install --cwd client && cd server && npm install",
     "start": "concurrently \"cd client && yarn dev\" \"cd server && npm start\""
   },
   "author": "zubair",
